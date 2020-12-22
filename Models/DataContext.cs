@@ -12,14 +12,17 @@ namespace com_parsan_student.Models
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            //base.OnModelCreating(modelBuilder);
+            base.OnModelCreating(modelBuilder);
+
             modelBuilder.Entity<Student>().HasData(
                 new Student { Id = 1, Name = "Ali", Family = "Alavi" },
                 new Student { Id = 2, Name = "Mohammad", Family = "Mohammadi" },
                 new Student { Id = 3, Name = "Hadi", Family = "Mahmoodi" },
                 new Student { Id = 4, Name = "Mahdi", Family = "khalili" }
             );
+
         }
+
 
     }
 

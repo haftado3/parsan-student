@@ -5,9 +5,12 @@ using System.Linq;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
+
 
 namespace com_parsan_student.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class StudentController : ControllerBase
@@ -18,6 +21,7 @@ namespace com_parsan_student.Controllers
         {
             this._context = _context;
         }
+
 
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Student>>> getAll()

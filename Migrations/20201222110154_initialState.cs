@@ -25,10 +25,10 @@ namespace com_parsan_student.Migrations
                 columns: new[] { "Id", "Family", "Name" },
                 values: new object[,]
                 {
-                    { 4, "khalili", "StudentMahdi" },
                     { 1, "Alavi", "Ali" },
                     { 2, "Mohammadi", "Mohammad" },
-                    { 3, "Mahmoodi", "Hadi" }
+                    { 3, "Mahmoodi", "Hadi" },
+                    { 4, "khalili", "Mahdi" }
                 });
         }
 

@@ -9,7 +9,7 @@ using com_parsan_student.Models;
 namespace com_parsan_student.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20201221125747_initialState")]
+    [Migration("20201222110154_initialState")]
     partial class initialState
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -40,12 +40,6 @@ namespace com_parsan_student.Migrations
                     b.HasData(
                         new
                         {
-                            Id = 4,
-                            Family = "khalili",
-                            Name = "StudentMahdi"
-                        },
-                        new
-                        {
                             Id = 1,
                             Family = "Alavi",
                             Name = "Ali"
@@ -61,6 +55,12 @@ namespace com_parsan_student.Migrations
                             Id = 3,
                             Family = "Mahmoodi",
                             Name = "Hadi"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Family = "khalili",
+                            Name = "Mahdi"
                         });
                 });
 #pragma warning restore 612, 618
