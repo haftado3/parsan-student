@@ -39,7 +39,7 @@ this will run app on `https://localhost:5050` which can be configured inside `la
 
 # 6 - PostMan Import :
 
-import post man json file included at `  sd`
+import post man json file included at https://raw.githubusercontent.com/haftado3/parsan-student/master/Parsan-Student.postman_collection.json you can see this file at root directory of this project.
 
 send a get request to https://localhost:5050/api/auth  already included in postman with name of `Get Token`.
 which will give you a Bearer Token .
