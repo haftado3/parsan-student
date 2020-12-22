@@ -9,7 +9,7 @@ https://github.com/haftado3/parsan_auth
 
 # 2 - Clone This Repository :
 
-execute `git clone https://github.com/haftado3/parsan-student` to clone this library.
+execute `git clone https://github.com/haftado3/parsan-student.git` to clone this library.
  
 # 3 - Connection String :
 
