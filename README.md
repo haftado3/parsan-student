@@ -13,8 +13,7 @@ execute `git clone https://github.com/haftado3/parsan-student.git` to clone this
  
 # 3 - Connection String :
 
-you simply need to update database for migrations to kick in SqlServer Express
-connection string is inside `appsettings.json`.
+connection string is inside `appsettings.json`. in case you dont have Sql Server Express you need to change Connection String.
 
 # 4 - Update Migrations :
 
