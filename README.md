@@ -50,4 +50,4 @@ add Bearer Auth Recieved From previous section to All Other Reqeuests inside `Au
 
 # 8 - Send Anyone Of Existed Requests.
 
-token expires in 1 hour.
+token will expire in 1 hour.
